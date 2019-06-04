@@ -22,6 +22,7 @@
 		A24372BE22A6D1D50013B076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A24372C122A6D1D50013B076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A24372C322A6D1D50013B076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24372C922A6E43E0013B076 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		A24372AB22A6D1D40013B076 = {
 			isa = PBXGroup;
 			children = (
+				A24372C922A6E43E0013B076 /* README.md */,
 				A24372B622A6D1D40013B076 /* About Me iOS Seven */,
 				A24372B522A6D1D40013B076 /* Products */,
 			);
