@@ -9,12 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK: IBOutlets
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var hobbiesLabel: UILabel!
+    
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        print("Hello, my name is Alex")
+        nameLabel.text = ""
+        hobbiesLabel.text = ""
     }
 
-
+    @IBAction func introduceSelfButtonTapped(_ sender: Any) {
+        super.viewDidLoad()
+        nameLabel.text = "Alex Shillingford"
+        hobbiesLabel.text = "Guitar, coding, reading"
+    }
+    
 }
 
